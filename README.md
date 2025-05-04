@@ -124,7 +124,8 @@ f,l = int(input()),int(input())
 
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/4a9076d8-a2cf-44e1-b7d1-e638b7edf12f)
+
+![8b](https://github.com/user-attachments/assets/1dd890aa-98d4-4bc6-af08-3c6cb361b001)
 
 
 
