@@ -31,7 +31,9 @@ t = eval(input())
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-EXPTNo.8b program to display elements from a list, present at odd index positions
+EXPTNo.8b The included code stub will read an integer, , from STDIN.
+Without using any string methods, try to print the following:123...n
+Note that "..." represents the consecutive values in between.
 
 ### Aim:The included code stub will read an integer, , from STDIN.
 Without using any string methods, try to print the following:123...n
@@ -114,13 +116,13 @@ STEP 8 : Stop.
 
 ### Program:
 ```
-cube = lambda x: x**2 if x%2==0 else x**3
+cube=lambda x:x**2 if x%2==0 else x**3
 def fun(f,l):
-     l1=[]
-     for i in range(f,l+1):
-           l1.append(i)
-      return l1
-f,l = int(input()),int(input())
+    l1=[]
+    for i in range(f,l+1):
+        l1.append(i)
+    return l1
+f,l=int(input()),int(input())
 
 ```
 ### Output:
