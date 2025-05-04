@@ -90,7 +90,8 @@ print(arr2[-2])
 
 ### Output:
  
-![image](https://github.com/user-attachments/assets/032939c0-f500-4bbb-9b19-87b3c54d8454)
+![8c](https://github.com/user-attachments/assets/20b79ee0-5a13-4081-98d6-81608f444bdc)
+
 
  
 
