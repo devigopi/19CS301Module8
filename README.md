@@ -1,8 +1,7 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the simple interest
 
-### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
-### Algorithm:
+### Aim: Find the simple interest by getting the principal, rate and time value from the user
 
 STEP 1: Start.
 
@@ -34,38 +33,28 @@ t = eval(input())
 
 EXPTNo.8b program to display elements from a list, present at odd index positions
 
-### Aim: To Write a python program to display elements from a list, present at odd index positions
+### Aim:The included code stub will read an integer, , from STDIN.
+Without using any string methods, try to print the following:123...n
+Note that "..." represents the consecutive values in between.
 ### Algorithm:
-
-STEP 1: Start.
-
-STEP 2: Define a function.
-
-STEP 3: Create a list and a variable a.
-
-STEP 4: Get the input of a from user.
-
-STEP 5 : Using loop get the inputs and append in list.
-
-STEP 6: Using another loop print the elements in the odd index position of the list. 
-
-STEP 7: Stop.
+Step 1: Start
+Step 2: Read the integer n from user input
+Step 3: Define a recursive function print_numbers(n)
+  Step 3.1: If n == 0, return (base case)
+  Step 3.2: Recursively call print_numbers(n - 1)
+  Step 3.3: Print the value of n (without newline)
+Step 4: In the main part of the program, call print_numbers(n)
+Step 5: End
 
 ### Program:
 ```
-def odd(a):
-         l=[]
-          for i in range(a):
-x = int(input())
-l.append(x)
-for i in range(a):
-           if i%2!=0:
-                print(l[i], end=" ")
- a = int(input())
-odd(a)
+n = int(input())
+for i in range(1,n+1):
+    print(i,end="")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
+
+![8a](https://github.com/user-attachments/assets/d22dbd0b-aea5-4a0a-86ab-8675dbb31580)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
