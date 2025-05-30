@@ -62,8 +62,7 @@ for i in range(1,n+1):
  
 
 EXPT NO>8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
-### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
-         in a list and find the score of the runner-up.
+### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up.
 
 
 ### Algorithm:
@@ -81,16 +80,21 @@ STEP 8: Stop.
 
 
 ### Program:
-```if  name	== '   main    ':
-          n = int(input())
-          arr = map(int, input().split())
-          arr2 = list(set(arr))
-          arr2.sort()
-print(arr2[-2])
+```
+n = int(input())
+arr = list(map(int, input().split()))
+arr.sort()
+large=arr[-1]
+arr.reverse()
+for i in range(len(arr)-1):
+    if arr[i+1]<arr[i]:
+        print(arr[i+1])
+        break
+```
 
 ### Output:
- 
-![8c](https://github.com/user-attachments/assets/20b79ee0-5a13-4081-98d6-81608f444bdc)
+
+![8d](https://github.com/user-attachments/assets/7de9ef21-a11e-4bbc-8495-36bcbe11c3fa)
 
 
  
@@ -117,18 +121,19 @@ STEP 8 : Stop.
 
 ### Program:
 ```
-cube=lambda x:x**2 if x%2==0 else x**3
+cube = lambda x: x**2 if x%2==0 else x**3
 def fun(f,l):
     l1=[]
     for i in range(f,l+1):
         l1.append(i)
     return l1
-f,l=int(input()),int(input())
+f,l = int(input()),int(input())
 
 ```
 ### Output:
 
-![8b](https://github.com/user-attachments/assets/1dd890aa-98d4-4bc6-af08-3c6cb361b001)
+![8f](https://github.com/user-attachments/assets/f6ffae43-0edd-453a-851b-88ea00ca46cd)
+
 
 
 
